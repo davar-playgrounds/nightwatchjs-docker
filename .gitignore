@@ -2,7 +2,6 @@
 /test/screenshots
 /test/videos
 
-node_modules
 npm-debug.log*
 report
 selenium-debug.log
