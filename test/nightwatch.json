@@ -1,0 +1,28 @@
+{
+  "globals_path": "globals.js",
+  "output_folder": "report",
+  "src_folders": ["specs"],
+  "page_objects_path": "pages",
+  "test_settings": {
+    "default": {
+      "screenshots": {
+        "enabled": true,
+        "on_failure": true,
+        "path": "screenshots"
+      },
+      "videos": {
+        "enabled": true,
+        "delete_on_success": false,
+        "path": "videos"
+      },
+      "desiredCapabilities": {
+        "project": "hCard E2E Tests",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "browserName": "chrome"
+      },
+      "launch_url": "https://static.domain.com.au/content/candidate-test-tester/index.html",
+      "selenium_host": "chromedriver"
+    }
+  }
+}
